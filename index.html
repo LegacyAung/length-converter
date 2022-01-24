@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <link rel="stylesheet" href="./style.css">
+  <script src="./index.js" defer></script>
+  <title>Length-unit-converter</title>
+</head>
+<body>
+  <div class='card-container'>
+    <form class="form" id='form'>
+        <div class="container-options1">
+          <label>Choose length unit: </label>
+          <select name='units' id='units' class="select-box">
+              <option value="">Choose the unit</option>
+              <option value='meter'>Meter</option>
+              <option value='centimeter'>Centimeter</option>
+              <option value='feet'>Feet</option>
+              <option value='inch'>Inches</option>
+              <option value="kilometer">Kilometer</option>
+              <option value="mile">Mile</option>
+          </select>
+          <input type='number' name='units-name' class="input" id="input-1" step=".01"/>
+        </div>
+        <div class='equal'> = </div>
+        <div class="container-options2">
+          <label>Choose length unit: </label>
+          <select name='units' id='units-two' class="select-box">
+              <option value="">Choose the unit</option>
+              <option value='meter'>Meter</option>
+              <option value='centimeter'>Centimeter</option>
+              <option value='feet'>Feet</option>
+              <option value='inch'>Inches</option>
+              <option value="kilometer">Kilometer</option>
+              <option value="mile">Mile</option>
+          </select>
+          <input class="input" id="input-2"></input>
+        </div>
+        <button type='submit' id='btn' class="btn">Convert</button>
+      </form>
+  </div>
+</body>
+</html>
